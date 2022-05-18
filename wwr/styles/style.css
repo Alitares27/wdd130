@@ -35,7 +35,7 @@ section1 h1 {
     font-size: 50px;
 }
 section1 h5{
-    font-family:'arial';
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     font-size: 20px;
 }
 a.book {
@@ -43,6 +43,7 @@ a.book {
     background-color: #d9c2a3;
     padding: 15px;
     border-radius: 10%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     text-decoration: none
 }
 main {
