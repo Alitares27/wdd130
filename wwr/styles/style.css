@@ -1,113 +1,166 @@
-body{
-    max-width: 1600px;
+*{
+    padding: 0px;
+    margin: 0px;
+    max-width: 1600px   ;
 }
-div{
-    max-width: 1600px;
+html{
+    background: white;
 }
-img.logo {
-    width: 80px;
-    max-width: 1600px;
-    padding: 15px;
+body {
+    max-width: 1500px;
 }
-header  {
-    max-width: 1600px;
-    background-color:rgba(20,30,13, .7);
-}
-header a:hover{
-    background-color: #d9c2a3  ;
-    color: black
-}
-nav a{
-    padding: 15px 15px;
-    color: white;
-    text-decoration: none
-}
-div1 img {
-    width: 1333px;
-    margin: 0 auto;
-}
-section1 {
-    text-align: center;
-}
-section1 h1 {
-    color: #d9c2a3;
-    font-family:'jokerman';
-    font-size: 50px;
-}
-section1 h5{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-    font-size: 20px;
-}
-a.book {
-    color: black;
-    background-color: #d9c2a3;
-    padding: 15px;
-    border-radius: 10%;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-    text-decoration: none
-}
-main {
-    text-align: center;
-}
-img.icon {
-    width: 10%;
-    margin-left: 10px;
-}
-img.card{
-    border: 4px solid #d9c2a3;
-    margin-top: 7%;
+.hero img {
+    width: 1600px;
+    padding-bottom: 0%;
     margin-bottom: 0%;
 }
-main h2 {
-    margin-bottom: 100px;
-    border-bottom:1px solid rgb(170, 170, 170) ;
+div img {
+    width: 1500px;
 }
-img.mountains {
-    margin-top: 50px;
+#hero {
+    width: 100px;
+    display: grid;
+    margin-top: -150px; 
 }
-a.join {
-    color: black;
-    background-color: #d9c2a3;
-    padding: 5px;
+.logo {
+    width: 80px;
+    padding: 0%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: left;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+    width: 1500px;
+}
+nav{
+    text-align: center;
+    margin-top: -50px;
+}
+nav a {
+    font-family: 'Courier New', Courier, monospace, 20;
+    font-size: 20px;
+    color: white;
+    padding: 100px;
+    text-decoration: none
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 200px;
+    text-align: center;
+    
+}
+section h1{
+    color: rgb(177, 169, 128);
+    text-align: center;
+    font-family: jokerman;
+    font-size: 50px;
+    padding: 0px;
+    margin-top: -20px;
+}
+section h4{
+    padding: 20px ;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.book{
+    background-color: rgb(177, 169, 128);
+    color: white;
+    padding: 10px 15px;
     border-radius: 10%;
     text-decoration: none
 }
-section1 a:hover{
-    padding: 15px 10px;
-    background-color: #d9c2a3  ;
-    text-decoration: none
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
 }
-footer {
-    margin: 20px;
-    padding: 20px;
+main  {
     text-align: center;
-    background-color:rgba(20,30,13, .7);
-    color: bisque;
-    font-family:'arial';
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    grid-column: 1/3;
+    grid-row: 1/2;
 }
-footer h2,p{
+.card-river{
+    width: 20%;
+    border: 8px solid rgb(177, 169, 128); 
+}
+.card-camping{
+    width: 20%;
+    border: 8px solid rgb(177, 169, 128);
+}
+.card-rapids{
+    width: 20%;
+    border: 8px solid rgb(177, 169, 128);
+}
+.icon-river{
+    margin: 15px 15px;
+    width: 20%;
+}
+.icon-camping{
+    margin: 15px 15px;
+    width: 20%;  
+}
+.icon-rapids{
+    margin: 15px 15px;
+    width: 20%; 
+}
+
+.mountains{
+    padding-right: 675px; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+    width: 50%;
+    background: rgb(233, 197, 130);
+}
+.msg{
+    color:white;
+    text-align: center;
+    max-width: 250px;
+    background: rgb(177, 169, 128);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    float: right;
+    margin: -100px 200px;
+    
+
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+.join{
+    font-family: 'Courier New', Courier, monospace, 20;
+    font-size: 20px;
+    margin-top: 200px;
+    background-color: rgb(233, 197, 130);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10%;
+    text-decoration: none
+    
+}
+
+footer{
+    
+    margin-top: -10px;
+    padding-top: 30px;
+    background-color: rgb(177, 169, 128);
     color: white;
 }
-footer a{
-    color: bisque;
+footer h3{
+
+    font-family: 'Courier New', Courier, monospace, 20;
+    font-size: 15px;
+    padding: 10px 10px;
+    color: white;
+    float: left;
     text-decoration: none
-}
-footer a:hover{
-    background-color: #d9c2a3  ;
-    color: black
-}
-footer h3,footer div {
-    text-align: left;
-}
-main {
-    margin-top: 0px;
-    margin-bottom: 50px;
-    margin-left: 0px;
-    margin-right: 0px;
-    border-bottom: 500px solid #d9c2a3;
-}
-footer{
-    margin: 180px 0px;
 }
