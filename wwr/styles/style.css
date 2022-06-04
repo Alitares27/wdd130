@@ -43,12 +43,13 @@ nav a {
     font-family: 'Courier New', Courier, monospace, 20;
     font-size: 20px;
     color: white;
-    padding: 100px;
+    padding: 80px;
     text-decoration: none
 }
 nav a:hover{
     background-color: rgb(233, 197, 130);
-    padding: 0px 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 #hero-msg {
     grid-column: 2/3;
