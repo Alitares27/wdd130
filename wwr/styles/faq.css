@@ -1,0 +1,102 @@
+@import url('https://fonts.google.com/specimen/Cinzel');
+@import url(https://fonts.google.com/specimen/Montserrat);
+* {
+    max-width: 1600px;
+    box-sizing: border-box;
+}
+#banner{
+    width: 1350px;
+    margin-top: -20px;
+    padding-bottom: 50px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white
+    
+}
+.logo{
+    max-width: 150px; 
+    padding-top: 15px;
+    margin-left: 25px;
+    padding-bottom: 40px;
+}
+
+header h1{
+    display: grid;
+    margin-top: -195px;
+    margin-bottom: 80px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family:cinzel ;
+    color:white;
+    font-size: 40px;
+    background-color:deepskyblue;
+    
+}
+header h2{
+    display: grid;
+    margin-top: -80px;
+    text-align: center;
+    color:white;
+    font-family: Montserrat;
+    font-size: 35px;
+    background-color:darkcyan;
+    padding: 20px 15px;
+}
+.grid{
+    margin-top: -55px;
+    max-width: 1350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 20px;
+    padding: 20px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    background-color: rgba(127, 255, 212, 0.075);
+}
+.grid2{
+    max-width: 1350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 20px;
+    padding: 20px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    background-color: rgba(127, 255, 212, 0.075);
+}
+.rafting-card{
+    width: 400px;
+}
+.rafting58-card{
+    width: 350px;
+}
+.rafting22-card{
+    width: 400px;
+}
+
+.rafting59-card{
+    width: 350px;
+}
+.rafting64-card{
+    width: 400px;
+}
+.rafting31-card{
+    width: 300px;
+}
+footer{
+    text-align: center;
+    background-color:deepskyblue;
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
