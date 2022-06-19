@@ -4,12 +4,13 @@ Fonts are separated by a | */
 @import url('https://fonts.google.com/specimen/Cinzel');
 @import url('https://fonts.google.com/specimen/Montserrat');
 @import url('https://fonts.google.com/specimen/Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #3D5A6C   ;
-  --secondary-color: #52E3B7 ;
-  --accent1-color: #433A3F;
+  --primary-color: #03284F   ;
+  --secondary-color: #0cccc6 ;
+  --accent1-color: #797F7E;
   --accent2-color: #CBEF43;
 
   /* change the values below to your chosen font(s) */
@@ -45,27 +46,33 @@ img {
   text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Mystery Quest', cursive;
   font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
+  color: var(--primary-color);
 }
 h2 {
   text-align: center;
 }
 hr {
-  height: 3px;
+  width: 3px;
   margin: 35px 0;
   background: var(--accent1-color);
 }
 header {
+  margin-top: -60px;
   padding: 1em;
   text-align: center;
   color: var(--paragraph-color-on-color);
-  background-color: var(--paragraph-background-color);
+  background-color:var(--primary-color);
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
+  background-color: var(--primary-color);
+  font-family:cursive;
 }
 p {
+  grid-template-columns: 1fr;
+  display: grid;
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
   padding: 1em;
@@ -96,7 +103,7 @@ p {
   background-color: var(--accent2-color);
 }
 p.colored {
-  background-color: var(--paragraph-background-color);
+  background-color: var(--secondary-color);
   color: var(--paragraph-color-on-color);
 }
 nav {
