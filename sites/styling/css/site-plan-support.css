@@ -6,7 +6,6 @@
 header{
     
     width: 1750px;
-    
 }
 .Logo_home{
     background-color: #0cccc679;
@@ -25,8 +24,7 @@ header{
 }
 #banner-img {
     max-width: 1750px;
-    width: 1750px;
-    
+    width: 1750px; 
 }
 
 #banner-msg{
