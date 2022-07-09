@@ -1,45 +1,93 @@
+@font-face {
+    font-family: Monserrat;
+    src: url(Montserrat-Variable.ttf);
+
+}
 header{
-    background-color: darkcyan;
-    padding-bottom: 20px;
-    width: 1500px;
+    
+    width: 1750px;
+    
 }
 .Logo_home{
-    width: 120px;
-    padding: 0%;
-    margin-top: 15px;
+    background-color: #0cccc679;
+    width: 100px;
+    padding-right: 1600px;
+    padding-left: 20px;
+    margin-top: 10px;
     margin-left: 10px;
-    margin-bottom: -15px;
+    position: sticky;
+    top:0
+}
+#banner {
+    width: 100px;
+    display: grid;
+    margin-top: -280px; 
 }
 #banner-img {
-    max-width: 1500px;
-    display: grid;
+    max-width: 1750px;
+    width: 1750px;
+    
 }
-.banner-box {
+
+#banner-msg{
+    grid-column: 2/3;;
+    grid-row: 1/2;
+    margin-top: 200px;
+    text-align: center;
+}
+section h1{
+    color: #03284F;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 90px;
+    padding: 0px;
+    margin-top: -500px;
+    padding-bottom: 80px;
+}
+section h4{
+    color: #03284F;
+    text-align: center;
+    margin-top: -80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+#banner-box {
+    display: grid;
+    margin-top: 0px;
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
 }
 nav {
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
-    margin-top: -30px;
-    margin-bottom: 20px;
+    margin-top: -80px;
+    margin-bottom: 50px;
     display: flexbox;
+    position: sticky;
+    top:0
 }
 nav a{
     text-align: center;
-    margin-top: -60px;
+    margin-top: -150px;
     padding:15px 15px;
-    font-family: 'Courier New', Courier, monospace, 20;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 25px;
     padding: 80px;
     text-decoration: none
 }
-
+nav a:hover{
+    background-color: #03284F;
+    padding: 0px 0px;
+}
 footer  {
     color: white;
     display: grid;
-    width: 1460px;
+    width: 1750px;
     margin-top: 10px;
     padding-left: 30px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -66,3 +114,137 @@ footer a{
     color: white;
     text-decoration: none
 }
+.home-grid{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    justify-items: center;
+    grid-gap: 50px;
+    padding: 0px 50px;
+    text-align: left;
+    padding-bottom: 30px;
+    
+    
+}
+
+.card-pill{
+    margin-top: 30px;
+    width: 450px;
+    border: 4px solid #0cccc6;
+    border-radius: 8px;
+}
+
+.card-pill:hover{
+    filter: grayscale(40%);
+    
+}
+.card-syrup{
+    margin-top: 30px;
+    width: 440px;
+    border: 4px solid #0cccc6;
+    border-radius: 8px;
+}
+.card-syrup:hover{
+    filter: grayscale(40%);
+}
+.card-inject{
+    margin-top: 30px;
+    width: 440px;
+    border: 4px solid #0cccc6;
+    border-radius: 8px;
+}
+.card-inject:hover{
+    filter: grayscale(40%);
+}
+
+aside{
+    display: grid;
+    grid-template-columns: 900px 700px;
+    justify-items: center;
+    grid-gap: 50px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.msg p{
+    width: 650px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #0cccc6;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+.card-app{
+    width: 700px;
+    background-color: #03284F;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 900px;
+    margin-left: 850px;
+}
+.msg p:hover{
+    -webkit-transform:scale(1.1);transform:scale(1.1); 
+}
+.caduceus{
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+    width: 300px;
+    margin-left: 800px;
+    
+}
+.caduceus:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+#quotes{
+    width: 400px;
+    margin-left: 200px;
+}
+#quote1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#quote1 p{
+    padding-top: 180px;
+    width: 400px;
+    color: black;
+    font-size: 24px;
+}
+#quote2{
+    display: grid;
+    margin-left: 80px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+#quote2 p{
+    padding-top: 90px;
+    width: 400px;
+    color: black;
+    font-size: 24px;
+}
+#quote3{
+    display: grid;
+  
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 50px;
+    padding-top: 70px;
+    text-align: center;
+}
+#quote3 p{
+    padding-top: 90px;
+    width: 400px;
+    color: black;
+    font-size: 24px;
+}
+
